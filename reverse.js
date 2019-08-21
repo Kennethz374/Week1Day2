@@ -4,5 +4,11 @@ if (input)
   console.log(reverse(input));
 
 function reverse(original) {
-  return orignal.split('').reverseList().join('');
+  let answer = original.split('');
+  return answer.reverse().join('');
 }
+
+//reverse is for array
+//split is for string
+//join return array into string
+
